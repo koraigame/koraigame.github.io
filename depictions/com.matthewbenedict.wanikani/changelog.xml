@@ -1,0 +1,46 @@
+<changelog>
+	<changes>
+    <version>824+14.7</version>
+    <change>Toggle answers in summary view</change>
+  </changes>
+  	<changes>
+    <version>824+14.6</version>
+    <change>Upcoming reviews list view</change>
+  </changes>
+  	<changes>
+    <version>824+14.5</version>
+    <change>Longest relative wait</change>
+  </changes>
+	<changes>
+    <version>824+14.4</version>
+    <change>Always show arrow, expand submit button, split cheats</change>
+  </changes>
+	<changes>
+    <version>824+14.3</version>
+    <change>Random lesson &amp; review order</change>
+  </changes>
+	<changes>
+    <version>824+14.2</version>
+    <change>Allow optional dark UI on iOS &lt;13 for dark-mode tweak users</change>
+  </changes>
+  <changes>
+    <version>824+14.1</version>
+    <change>Exact match, partially correct pausing, Anki mode, edit notes, &amp; show all buttons</change>
+  </changes>
+  <changes>
+    <version>824+14.0</version>
+    <change>Introduce apprentice limit and option to hide stats section</change>
+  </changes>
+  <changes>
+    <version>800+24.0</version>
+    <change>Bug fixes</change>
+  </changes>
+  <changes>
+    <version>787+30.0</version>
+    <change>Switch to a dynamic database so that WaniKani content updates can be automatically applied, rather than via an app update</change>
+  </changes>
+  <changes>
+    <version>729+33.0</version>
+    <change>Initial release</change>
+	</changes>
+</changelog>

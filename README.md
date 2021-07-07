@@ -146,6 +146,12 @@ Depiction: https://username.github.io/repo/depictions/?p=com.supermamon.oldpacka
 
 #### 3. Rebuilding the `Packages` file
 
+If distributing an iOS app, update the `control` file with the correct version number, and then create the DEB file by:
+
+```
+dpkg-deb -b "Koraigame"
+```
+
 With your updated `control` file, build your tweak.
 Store the resulting `.deb.` file into the `/debs/` folder of your repo.
 Build your `Packages` file and compress with `bzip2`.
@@ -153,7 +159,7 @@ Build your `Packages` file and compress with `bzip2`.
 ```sh
 user:~/ $ cd repo
 user:~/repo $ dpkg-scanpackages -m ./debs > Packages
-user:~/repo $ bzip2 Packages
+user:~/repo $ bzip2 Packages -k -f
 ```
 
 _Windows users, see [dpkg-scanpackages-py](https://github.com/supermamon/dpkg-scanpackages-py) or [scanpkg](https://github.com/mstg/scanpkg)._

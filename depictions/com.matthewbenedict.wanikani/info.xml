@@ -1,0 +1,29 @@
+<package>
+	<id>com.matthewbenedict.wanikani</id>
+	<name>Koraigame</name>
+  <version>822+13.2</version>
+	<compatibility>
+		<firmware>
+			<miniOS>8.0</miniOS>
+		</firmware>
+	</compatibility>
+	<shortDescription>Koraigame is the legacy fork of Tsurukame, an unofficial WaniKani app for iOS. It helps you learn Japanese Kanji.</shortDescription>
+	<descriptionlist>
+		<description><![CDATA[
+		Koraigame is the legacy fork of Tsurukame. It currently supports iOS 8-14, and is compiled with Xcode 10.
+		]]>
+		</description>
+	</descriptionlist>
+	<screenshots>
+	</screenshots>
+	<changelog>
+    <change>824+14.7: Toggle answers in summary view</change>
+	</changelog>
+	<links>
+		<link>
+			<name>View Source Code</name>
+			<url>https://github.com/koraigame/koraigame</url>
+			<iconclass>fa fa-github</iconclass>
+		</link>
+	</links>
+</package>
